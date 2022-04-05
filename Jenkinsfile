@@ -1,7 +1,7 @@
 pipeline {
     agent {
         node: 
-          label 'localhost'
+          label 'Built-In Node'
      }
     tools {
 
