@@ -1,12 +1,12 @@
 pipeline {
     agent {
         node: 
-          label 'alok-server'
+          label 'localhost'
      }
     tools {
 
-        maven 'mymaven'
-        jdk 'myjava'
+        maven 'maven 3.6.3'
+        jdk 'jdk 11.0.13'
     }
     stages {
         stage('Check Maven Version') {
