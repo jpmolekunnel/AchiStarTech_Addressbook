@@ -1,7 +1,7 @@
 pipeline {
     agent {
         node: 
-          label 'Lab-Agent-Node'
+          label 'Built-In Node'
      }
     tools {
 
